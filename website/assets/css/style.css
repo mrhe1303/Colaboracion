@@ -1,3 +1,53 @@
 body{
-    background: #BDBDBD;
+    background: white;
+}
+.container-fluid {
+    position: relative;
+}
+.barra {
+    background-color: rgb(56, 51, 51);
+}
+.barra .navbar-brand, .barra .nav-link {
+    color: rgb(184, 184, 184);
+}
+.panorama {
+    width: 100%;
+    height: 500px;
+}
+.titulo1 {
+    background-color: white;
+    width: 98.75%;
+    height: 100px;
+    text-align: center;
+    position: absolute;
+    top: 30%;
+    padding-top: 20px;
+}
+.titulo2 {
+    background-color: white;
+    width: 98.75%;
+    height:50px;
+    text-align: center;
+    position: absolute;
+    top: 40%;
+    margin-top: 100px;
+}
+.hombre {
+    border-radius: 50%;
+    height: 500px;
+    margin-top: 10px;
+}
+.first_heading, .service {
+    width: 100%;
+    justify-content: center;
+}
+[class*="texto"] {
+    text-align: center;
+    padding-top: 50px;
+}
+.teclado {
+    border-radius: 50%;
+    width: 400px;
+    height: 500px;
+    margin-top: 10px;
 }
