@@ -51,3 +51,22 @@ body{
     height: 500px;
     margin-top: 10px;
 }
+.titulo3 {
+    margin-left: 10px;
+}
+.cardbox {
+    display: flex;
+}
+.card {
+    margin: 10px;
+}
+.card-title {
+    color: rgb(112, 112, 240);
+}
+.titulo4 {
+    margin-left: 10px;
+}
+.row {
+    margin-top: 10px;
+    justify-self: center;
+}
